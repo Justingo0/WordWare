@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://8sxlyuuoqhd0"]
+
+[ext_resource type="Script" uid="uid://dm7qnuomvv2o7" path="res://Scenes/test_scene.gd" id="1_3dogw"]
+
+[node name="TestScene" type="Node2D" unique_id=589397535]
+script = ExtResource("1_3dogw")
+
+[node name="Control" type="Control" parent="." unique_id=16083785]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+
+[node name="Label" type="Label" parent="Control" unique_id=2041772155]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -231.0
+offset_top = 40.0
+offset_right = 231.0
+offset_bottom = 119.0
+grow_horizontal = 2
+size_flags_horizontal = 4
+theme_override_font_sizes/font_size = 26
+text = "Jello!"
+horizontal_alignment = 1
+autowrap_mode = 2

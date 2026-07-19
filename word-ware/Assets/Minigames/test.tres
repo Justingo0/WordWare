@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="MinigameTemplate" format=3 uid="uid://bwlanmw0b3hls"]
+
+[ext_resource type="Script" uid="uid://blgtbh7j0a05m" path="res://Scripts/minigame_template.gd" id="1_iyuda"]
+
+[resource]
+script = ExtResource("1_iyuda")
+answers = Array[String](["Uhhhhh"])
+metadata/_custom_type_script = "uid://blgtbh7j0a05m"

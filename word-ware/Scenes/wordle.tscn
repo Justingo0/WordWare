@@ -1,0 +1,88 @@
+[gd_scene format=3 uid="uid://r1rwj4bcdvvx"]
+
+[ext_resource type="Script" uid="uid://davk56u6vgdab" path="res://Scripts/wordle.gd" id="1_cq0de"]
+[ext_resource type="PackedScene" uid="uid://byoqhbphw27md" path="res://Scenes/slot.tscn" id="2_8gmt5"]
+
+[node name="Wordle" type="Control" unique_id=1223222237]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_cq0de")
+
+[node name="Container" type="GridContainer" parent="." unique_id=2128852049]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -184.0
+offset_top = -208.0
+offset_right = 184.0
+offset_bottom = 208.0
+grow_horizontal = 2
+grow_vertical = 2
+columns = 3
+
+[node name="Slot" parent="Container" unique_id=125664460 instance=ExtResource("2_8gmt5")]
+custom_minimum_size = Vector2(120, 80)
+layout_mode = 2
+
+[node name="Slot2" parent="Container" unique_id=1188449468 instance=ExtResource("2_8gmt5")]
+custom_minimum_size = Vector2(120, 80)
+layout_mode = 2
+
+[node name="Slot3" parent="Container" unique_id=662506828 instance=ExtResource("2_8gmt5")]
+custom_minimum_size = Vector2(120, 80)
+layout_mode = 2
+
+[node name="Slot4" parent="Container" unique_id=189318955 instance=ExtResource("2_8gmt5")]
+custom_minimum_size = Vector2(120, 80)
+layout_mode = 2
+
+[node name="Slot5" parent="Container" unique_id=1336877251 instance=ExtResource("2_8gmt5")]
+custom_minimum_size = Vector2(120, 80)
+layout_mode = 2
+
+[node name="Slot6" parent="Container" unique_id=352641031 instance=ExtResource("2_8gmt5")]
+custom_minimum_size = Vector2(120, 80)
+layout_mode = 2
+
+[node name="Slot7" parent="Container" unique_id=1376606136 instance=ExtResource("2_8gmt5")]
+custom_minimum_size = Vector2(120, 80)
+layout_mode = 2
+
+[node name="Slot8" parent="Container" unique_id=209770224 instance=ExtResource("2_8gmt5")]
+custom_minimum_size = Vector2(120, 80)
+layout_mode = 2
+
+[node name="Slot9" parent="Container" unique_id=1558087005 instance=ExtResource("2_8gmt5")]
+custom_minimum_size = Vector2(120, 80)
+layout_mode = 2
+
+[node name="Slot10" parent="Container" unique_id=1617755417 instance=ExtResource("2_8gmt5")]
+custom_minimum_size = Vector2(120, 80)
+layout_mode = 2
+
+[node name="Slot11" parent="Container" unique_id=809145765 instance=ExtResource("2_8gmt5")]
+custom_minimum_size = Vector2(120, 80)
+layout_mode = 2
+
+[node name="Slot12" parent="Container" unique_id=440355943 instance=ExtResource("2_8gmt5")]
+custom_minimum_size = Vector2(120, 80)
+layout_mode = 2
+
+[node name="Slot13" parent="Container" unique_id=483983778 instance=ExtResource("2_8gmt5")]
+custom_minimum_size = Vector2(120, 80)
+layout_mode = 2
+
+[node name="Slot14" parent="Container" unique_id=1128537377 instance=ExtResource("2_8gmt5")]
+custom_minimum_size = Vector2(120, 80)
+layout_mode = 2
+
+[node name="Slot15" parent="Container" unique_id=235253143 instance=ExtResource("2_8gmt5")]
+custom_minimum_size = Vector2(120, 80)
+layout_mode = 2
